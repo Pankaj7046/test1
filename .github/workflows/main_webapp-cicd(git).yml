@@ -71,6 +71,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'webapp-cicd'
-          slot-name: 'git'
+          app-name: 'Wehther-app-flask-server'
+          slot-name: 'Staging'
           
